@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="MorningReminder.Views.TaskView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             xmlns:SampleData="clr-namespace:MorningReminder.Views.SampleData"
+             d:DesignHeight="100"
+             d:DataContext="{d:DesignInstance  SampleData:SampleTaskViewModel, IsDesignTimeCreatable=True}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90"/>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="30"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="0" Name="TaskNameLabel" >
+            <TextBlock Text="{Binding TaskName}" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <Label Grid.Column="1" Name="TaskDescriptionLabel" >
+            <TextBlock Text="{Binding TaskDescription}" TextWrapping="Wrap"></TextBlock>
+        </Label>
+        <Button Grid.Column="2" x:Name="EditTaskBtn" Command="{Binding EditTaskCommand}" ToolTip="Edit Task"  Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20" >
+            <Image Source="Images/pencil-icon.png" Stretch="Uniform" />
+        </Button>
+        <Button Grid.Column="3" x:Name="DeleteTaskBtn" Command="{Binding DeleteTaskCommand}" ToolTip="Delete Task" Height="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="20" >
+            <Image Source="Images/deleteIcon.png" Stretch="Uniform" />
+        </Button>
+    </Grid>
+</UserControl>

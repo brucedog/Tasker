@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Tasks>
+  <task Name="TaskName1" Description="Task 1's description" />
+  <task Name="TaskName2" Description="Task 2's description" />
+  <task Name="TaskToDo" Description="Test of the description of the task to see how it fills everything out." />
+</Tasks>

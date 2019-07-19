@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MorningReminder", "MorningReminder\MorningReminder.csproj", "{79593E36-E85F-4D4A-BFFF-AA2DF038179C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messenger", "Messenger\Messenger.csproj", "{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test Projects", "Test Projects", "{75018262-33D1-473B-8180-6A9859E0ADF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModelUnitTests", "ViewModelUnitTests\ViewModelUnitTests.csproj", "{84A37B73-1782-4603-9DD1-9EB065F1417B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0B802BE-E4E3-4B50-93F9-8991E12BA82A}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MorningReminder.vsmdi = MorningReminder.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MorningReminder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Debug|x86.ActiveCfg = Debug|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Debug|x86.Build.0 = Debug|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Release|Any CPU.ActiveCfg = Release|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Release|x86.ActiveCfg = Release|x86
+		{79593E36-E85F-4D4A-BFFF-AA2DF038179C}.Release|x86.Build.0 = Release|x86
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5C6F48D7-47A7-4B8A-83BD-42E29A53E09B}.Release|x86.ActiveCfg = Release|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{84A37B73-1782-4603-9DD1-9EB065F1417B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84A37B73-1782-4603-9DD1-9EB065F1417B} = {75018262-33D1-473B-8180-6A9859E0ADF8}
+	EndGlobalSection
+EndGlobal
